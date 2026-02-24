@@ -7,7 +7,7 @@ const config = Object.freeze({
     nodeEnv: process.env.NODE_ENV || 'development',
     accessTokenSecret:
         process.env.ACCESS_TOKEN_SECRET ||
-        'qCVznGZvP3lc3mzhdhEuLN7ujbNSaLyksvNyJd1qjkvZvPaj50',
+        '',
 });
 
 console.log(`Configuration loaded: databaseURI=${config.databaseURI}, PORT=${config.port}`);
